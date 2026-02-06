@@ -8,11 +8,11 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Load dataset
-data = pd.read_csv(r'')
+data = pd.read_csv(r'https://raw.githubusercontent.com/sakshiDate0404/Demo/refs/heads/main/Demo/data/raw/cement.csv')
 
 # Data Preprocessing
 data = data.dropna()  # Remove missing values
-X = data.drop(columns = 'strength',axis = 1)
+X = data.drop(columns = 'strength')
 y = data['strength']
 
 # Split the dataset
