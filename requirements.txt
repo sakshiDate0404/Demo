@@ -1,0 +1,14 @@
+chandan-aiops
+dvc
+ipykernel
+jinja2
+matplotlib
+mlflow
+numpy
+optuna
+pandas
+pydentic
+pyyaml
+scikit-learn
+seaborn
+uvicorn
